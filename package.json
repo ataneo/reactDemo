@@ -1,0 +1,31 @@
+{
+  "name": "reactdemo",
+  "version": "1.0.0",
+  "description": "Demo Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server ./index.js --hot --content-base ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ataneo/reactDemo.git"
+  },
+  "keywords": [
+    "react",
+    "demo"
+  ],
+  "author": "ataneo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ataneo/reactDemo/issues"
+  },
+  "homepage": "https://github.com/ataneo/reactDemo#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
